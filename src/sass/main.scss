@@ -1,0 +1,30 @@
+@import './abstracts/functions';
+@import './abstracts/mixins';
+@import './abstracts/variables';
+
+@import './base/_base';
+@import './base/animations';
+@import './base/typography';
+@import './base/utilities';
+
+
+
+@import './layout/home';
+@import './layout/about';
+@import './layout/features';
+@import './layout/testemonials';
+@import './layout/tours';
+@import './layout/booking';
+@import "./layout/footer";
+@import './layout/header';
+@import './layout/grid';
+
+@import './components/composition';
+@import './components/button';
+@import './components/feature-box';
+@import './components/card';
+@import './components/story';
+@import './components/bg-video';
+@import './components/form';
+@import './components/menu';
+@import './components/popup';

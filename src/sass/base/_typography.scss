@@ -1,0 +1,86 @@
+body {
+   font-family: "Lato", sans-serif;
+   font-weight: 400;
+   line-height: 1.7;
+   color: $color-grey-dark;
+}
+
+.heading-primary{
+   color: $color-white;
+   text-transform: uppercase;
+   backface-visibility: hidden; /*Remove wierd move when animated*/
+   margin-bottom: 6rem;
+
+  
+
+
+      &--main {
+         display: block;
+         font-size: 6rem;
+         font-weight: 400;
+         letter-spacing: 35px;
+         animation: moveInLeft 1s ease-in-out;
+         
+
+         @include query(phone) {
+            letter-spacing: 1rem;
+            font-family: 5rem;
+         }
+      
+      }
+
+      &--sub {
+         display: block;
+         font-size: 2rem;
+         font-weight: 700;
+         letter-spacing: 1.7rem;
+         animation: moveInRight 1s ease-in-out;
+
+         @include query(phone) {
+            letter-spacing: .5rem;
+         }
+      
+      }
+
+ }
+
+ .heading-secondary {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    letter-spacing: .2rem;
+    transition: all .2s;
+
+    //Add gradient and clips the gradient to the text
+    background-image: linear-gradient( to right, $color-primary-light, $color-primary-dark);
+    background-clip: text;
+    color: transparent;
+
+    @include query(tab-port) {
+      font-size: 3rem;
+    }
+
+    @include query(phone) {
+      font-size: 2.5rem;
+    }
+
+    &:hover {
+       transform: scale(1.05);
+       text-shadow: .5rem 1rem 2rem rgba($color-black, .2)
+    }
+ }
+
+ .heading-tertiary {
+   font-size: $default-font-size;
+   font-weight: 700;
+   text-transform: uppercase;
+ }
+
+ .paragraph {
+    font-size: 1.6rem;
+
+    &:not(:last-child){
+       margin-bottom: 3rem
+    }
+ }

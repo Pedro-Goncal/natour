@@ -1,0 +1,9 @@
+
+.section__stories {
+padding: 15rem 0;
+position: relative;
+
+   @include query(tab-port) {
+      padding: 10rem 0;
+   }
+}
