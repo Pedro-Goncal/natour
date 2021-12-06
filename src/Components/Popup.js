@@ -1,10 +1,10 @@
-import Nat8 from "../assets/images/nat-8.jpg";
-import Nat9 from "../assets/images/nat-9.jpg";
+import Nat8 from '../assets/images/nat-8.jpg';
+import Nat9 from '../assets/images/nat-9.jpg';
 
 const Popup = ({ popup, tourName, togglePopUpOff, color }) => {
   return (
-    <div className={`popup ${popup ? "popup__active" : ""}`}>
-      <div className={`popup__content ${popup ? "popup__active2" : ""}`}>
+    <div className={`popup ${popup ? 'popup__active' : ''}`}>
+      <div className={`popup__content ${popup ? 'popup__active2' : ''}`}>
         <div className="popup__left">
           <img src={Nat8} alt="" className="popup__img" />
           <img src={Nat9} alt="" className="popup__img" />
