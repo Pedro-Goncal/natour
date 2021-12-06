@@ -1,4 +1,4 @@
-import Logo2 from "../assets/images/logo-green-2x.png";
+import Logo2 from '../assets/images/logo-green-2x.png';
 
 const Footer = () => {
   return (
@@ -11,27 +11,27 @@ const Footer = () => {
           <div className="footer__navigation">
             <ul className="footer__list">
               <li className="footer__item">
-                <a href="#" className="footer__link">
+                <a href="/" className="footer__link">
                   Company
                 </a>
               </li>
               <li className="footer__item">
-                <a href="#" className="footer__link">
+                <a href="/" className="footer__link">
                   Contact
                 </a>
               </li>
               <li className="footer__item">
-                <a href="#" className="footer__link">
+                <a href="/" className="footer__link">
                   Carrers
                 </a>
               </li>
               <li className="footer__item">
-                <a href="#" className="footer__link">
+                <a href="/" className="footer__link">
                   Privacy policy
                 </a>
               </li>
               <li className="footer__item">
-                <a href="#" className="footer__link">
+                <a href="/" className="footer__link">
                   Terms
                 </a>
               </li>
@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
         <div className="col-1-of-2">
           <p className="footer__copyright">
-            Built by{" "}
+            Built by{' '}
             <a
               href="https://www.linkedin.com/in/pedro-goncalves88/"
               target="_blank"
@@ -48,7 +48,7 @@ const Footer = () => {
               rel="noreferrer"
             >
               Pedro Goncalves
-            </a>{" "}
+            </a>{' '}
             part of my learning experience with responsive design and SASS
             implementation. Designed by Jonas Schmedtman
           </p>
