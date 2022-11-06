@@ -25,7 +25,7 @@ const Booking = () => {
                   className="form__input"
                   type="email"
                   placeholder="Email address"
-                  requiered
+                  required
                   id="email"
                 />
                 <label for="email" className="form__label">
